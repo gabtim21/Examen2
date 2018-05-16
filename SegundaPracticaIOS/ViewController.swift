@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var usuarioText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    
+    var usuario:String = "Gabtim"
+    var password:String = "123"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func ingresarBoton(_ sender: Any) {
+        if usuarioText.text == "Gabtim" && passwordText.text == "123" {
+            performSegue(withIdentifier: "primerSegue", sender: nil)
+            
+        }else{
+            
+        }
+
+    }
 
 }
 

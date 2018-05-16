@@ -13,6 +13,10 @@
 		E8578FA320979A0E00631071 /* SegundaPracticaIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8578FA120979A0E00631071 /* SegundaPracticaIOS.xcdatamodeld */; };
 		E8578FA520979A0E00631071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8578FA420979A0E00631071 /* Assets.xcassets */; };
 		E8578FA820979A0E00631071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8578FA620979A0E00631071 /* LaunchScreen.storyboard */; };
+		E8578FB02097A28400631071 /* CrearCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8578FAF2097A28400631071 /* CrearCursoViewController.swift */; };
+		E8578FB22097A42E00631071 /* CursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8578FB12097A42E00631071 /* CursosViewController.swift */; };
+		E8578FB42097ABE500631071 /* DetalleCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8578FB32097ABE500631071 /* DetalleCursoViewController.swift */; };
+		E8ABEA66209A23CD0060C754 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABEA65209A23CD0060C754 /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E8578FA420979A0E00631071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8578FA720979A0E00631071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8578FA920979A0E00631071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8578FAF2097A28400631071 /* CrearCursoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearCursoViewController.swift; sourceTree = "<group>"; };
+		E8578FB12097A42E00631071 /* CursosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CursosViewController.swift; sourceTree = "<group>"; };
+		E8578FB32097ABE500631071 /* DetalleCursoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleCursoViewController.swift; sourceTree = "<group>"; };
+		E8ABEA65209A23CD0060C754 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				E8578FA620979A0E00631071 /* LaunchScreen.storyboard */,
 				E8578FA920979A0E00631071 /* Info.plist */,
 				E8578FA120979A0E00631071 /* SegundaPracticaIOS.xcdatamodeld */,
+				E8578FAF2097A28400631071 /* CrearCursoViewController.swift */,
+				E8578FB12097A42E00631071 /* CursosViewController.swift */,
+				E8578FB32097ABE500631071 /* DetalleCursoViewController.swift */,
+				E8ABEA65209A23CD0060C754 /* FinalViewController.swift */,
 			);
 			path = SegundaPracticaIOS;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8578FB42097ABE500631071 /* DetalleCursoViewController.swift in Sources */,
+				E8ABEA66209A23CD0060C754 /* FinalViewController.swift in Sources */,
+				E8578FB22097A42E00631071 /* CursosViewController.swift in Sources */,
 				E8578F9D20979A0E00631071 /* ViewController.swift in Sources */,
+				E8578FB02097A28400631071 /* CrearCursoViewController.swift in Sources */,
 				E8578F9B20979A0E00631071 /* AppDelegate.swift in Sources */,
 				E8578FA320979A0E00631071 /* SegundaPracticaIOS.xcdatamodeld in Sources */,
 			);
@@ -308,6 +324,7 @@
 				E8578FAE20979A0E00631071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
